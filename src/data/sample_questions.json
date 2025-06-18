@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "domain": {
+      "number": 1,
+      "name": "General Security Concepts",
+      "weight": 12
+    },
+    "questionText": "Which of the following best describes the concept of defense in depth?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Using multiple layers of security controls to protect assets"
+      },
+      {
+        "letter": "B",
+        "text": "Implementing the strongest possible encryption"
+      },
+      {
+        "letter": "C",
+        "text": "Focusing security efforts on the network perimeter"
+      },
+      {
+        "letter": "D",
+        "text": "Using only hardware-based security solutions"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Defense in depth is a security strategy that employs multiple layers of security controls throughout an IT system. Rather than relying on a single security measure, this approach uses various defensive mechanisms at different levels to protect against threats.",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 2,
+    "domain": {
+      "number": 1,
+      "name": "General Security Concepts",
+      "weight": 12
+    },
+    "questionText": "What is the primary purpose of implementing the principle of least privilege?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To reduce system performance overhead"
+      },
+      {
+        "letter": "B",
+        "text": "To minimize the potential impact of security breaches"
+      },
+      {
+        "letter": "C",
+        "text": "To simplify user account management"
+      },
+      {
+        "letter": "D",
+        "text": "To improve system compatibility"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The principle of least privilege ensures that users and processes are granted only the minimum access rights necessary to perform their functions. This minimizes the potential damage that can occur from accidents, errors, or unauthorized use.",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 3,
+    "domain": {
+      "number": 1,
+      "name": "General Security Concepts",
+      "weight": 12
+    },
+    "questionText": "Which authentication factor is considered 'something you know'?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Fingerprint scan"
+      },
+      {
+        "letter": "B",
+        "text": "Smart card"
+      },
+      {
+        "letter": "C",
+        "text": "Password"
+      },
+      {
+        "letter": "D",
+        "text": "Security token"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Authentication factors are categorized into three types: something you know (knowledge factors like passwords), something you have (possession factors like tokens), and something you are (inherence factors like biometrics).",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 4,
+    "domain": {
+      "number": 1,
+      "name": "General Security Concepts",
+      "weight": 12
+    },
+    "questionText": "What does CIA stand for in information security?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Central Intelligence Agency"
+      },
+      {
+        "letter": "B",
+        "text": "Confidentiality, Integrity, and Availability"
+      },
+      {
+        "letter": "C",
+        "text": "Computer Information Assurance"
+      },
+      {
+        "letter": "D",
+        "text": "Cybersecurity Information Analysis"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The CIA triad represents the three fundamental principles of information security: Confidentiality (protecting information from unauthorized access), Integrity (ensuring information accuracy and completeness), and Availability (ensuring information is accessible when needed).",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 5,
+    "domain": {
+      "number": 1,
+      "name": "General Security Concepts",
+      "weight": 12
+    },
+    "questionText": "Which of the following is an example of a preventive security control?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Security audit"
+      },
+      {
+        "letter": "B",
+        "text": "Firewall"
+      },
+      {
+        "letter": "C",
+        "text": "Intrusion detection system"
+      },
+      {
+        "letter": "D",
+        "text": "Security camera"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Preventive controls are designed to prevent security incidents from occurring. A firewall prevents unauthorized network access. Detective controls (like IDS and cameras) identify incidents, while corrective controls respond to incidents.",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 6,
+    "domain": {
+      "number": 2,
+      "name": "Threats, Vulnerabilities, and Mitigations",
+      "weight": 22
+    },
+    "questionText": "What type of attack involves overwhelming a system with traffic to make it unavailable?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SQL injection"
+      },
+      {
+        "letter": "B",
+        "text": "Cross-site scripting"
+      },
+      {
+        "letter": "C",
+        "text": "Denial of Service (DoS)"
+      },
+      {
+        "letter": "D",
+        "text": "Man-in-the-middle"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A Denial of Service (DoS) attack attempts to make a system or network resource unavailable to legitimate users by overwhelming it with traffic or requests. This directly impacts the availability component of the CIA triad.",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 7,
+    "domain": {
+      "number": 2,
+      "name": "Threats, Vulnerabilities, and Mitigations",
+      "weight": 22
+    },
+    "questionText": "Which of the following best describes a zero-day vulnerability?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A vulnerability that has been patched"
+      },
+      {
+        "letter": "B",
+        "text": "A vulnerability that is publicly known but unpatched"
+      },
+      {
+        "letter": "C",
+        "text": "A vulnerability that is unknown to vendors and has no available patch"
+      },
+      {
+        "letter": "D",
+        "text": "A vulnerability that only affects legacy systems"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A zero-day vulnerability is a security flaw that is unknown to the software vendor and security community, meaning there are zero days since the vendor learned about it. No patch or fix is available, making systems particularly vulnerable.",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 8,
+    "domain": {
+      "number": 2,
+      "name": "Threats, Vulnerabilities, and Mitigations",
+      "weight": 22
+    },
+    "questionText": "What is the primary goal of social engineering attacks?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To exploit technical vulnerabilities"
+      },
+      {
+        "letter": "B",
+        "text": "To manipulate people into divulging confidential information"
+      },
+      {
+        "letter": "C",
+        "text": "To install malware on systems"
+      },
+      {
+        "letter": "D",
+        "text": "To gain physical access to facilities"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Social engineering attacks target the human element of security by manipulating people into revealing confidential information or performing actions that compromise security. These attacks exploit human psychology rather than technical vulnerabilities.",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 9,
+    "domain": {
+      "number": 3,
+      "name": "Security Architecture",
+      "weight": 18
+    },
+    "questionText": "Which network segmentation technique creates separate broadcast domains?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Subnetting"
+      },
+      {
+        "letter": "B",
+        "text": "VLANs"
+      },
+      {
+        "letter": "C",
+        "text": "NAT"
+      },
+      {
+        "letter": "D",
+        "text": "Port security"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Virtual LANs (VLANs) create separate broadcast domains within a single physical network infrastructure. This provides network segmentation and improves security by isolating traffic between different groups of users or systems.",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 10,
+    "domain": {
+      "number": 3,
+      "name": "Security Architecture",
+      "weight": 18
+    },
+    "questionText": "What is the primary purpose of a DMZ in network architecture?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To provide wireless access"
+      },
+      {
+        "letter": "B",
+        "text": "To host public-facing services while protecting the internal network"
+      },
+      {
+        "letter": "C",
+        "text": "To store backup data"
+      },
+      {
+        "letter": "D",
+        "text": "To provide remote access for employees"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A DMZ (Demilitarized Zone) is a network segment that sits between the internal network and the internet. It hosts public-facing services like web servers while providing an additional layer of protection for the internal network.",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 11,
+    "domain": {
+      "number": 4,
+      "name": "Security Operations",
+      "weight": 28
+    },
+    "questionText": "What is the primary purpose of log aggregation in security monitoring?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To reduce storage requirements"
+      },
+      {
+        "letter": "B",
+        "text": "To centralize log collection and analysis"
+      },
+      {
+        "letter": "C",
+        "text": "To encrypt log data"
+      },
+      {
+        "letter": "D",
+        "text": "To automatically respond to incidents"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Log aggregation centralizes the collection of log data from multiple sources into a single location, making it easier to analyze, correlate events, and detect security incidents across the entire infrastructure.",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 12,
+    "domain": {
+      "number": 4,
+      "name": "Security Operations",
+      "weight": 28
+    },
+    "questionText": "Which phase of incident response involves containing the threat?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Preparation"
+      },
+      {
+        "letter": "B",
+        "text": "Detection and Analysis"
+      },
+      {
+        "letter": "C",
+        "text": "Containment, Eradication, and Recovery"
+      },
+      {
+        "letter": "D",
+        "text": "Post-Incident Activity"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The Containment, Eradication, and Recovery phase involves stopping the spread of the incident, removing the threat from the environment, and restoring systems to normal operation. This is when active threat containment occurs.",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 13,
+    "domain": {
+      "number": 5,
+      "name": "Security Program Management and Oversight",
+      "weight": 20
+    },
+    "questionText": "What is the primary purpose of a risk assessment?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To eliminate all security risks"
+      },
+      {
+        "letter": "B",
+        "text": "To identify, analyze, and evaluate risks to organizational assets"
+      },
+      {
+        "letter": "C",
+        "text": "To implement security controls"
+      },
+      {
+        "letter": "D",
+        "text": "To train employees on security policies"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Risk assessment is the process of identifying potential threats and vulnerabilities, analyzing their likelihood and impact, and evaluating the overall risk to organizational assets. This information guides risk management decisions.",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 14,
+    "domain": {
+      "number": 5,
+      "name": "Security Program Management and Oversight",
+      "weight": 20
+    },
+    "questionText": "Which document typically defines the acceptable use of organizational IT resources?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Business Impact Analysis"
+      },
+      {
+        "letter": "B",
+        "text": "Acceptable Use Policy (AUP)"
+      },
+      {
+        "letter": "C",
+        "text": "Incident Response Plan"
+      },
+      {
+        "letter": "D",
+        "text": "Disaster Recovery Plan"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "An Acceptable Use Policy (AUP) defines how employees and other users may appropriately use organizational IT resources, including computers, networks, and internet access. It establishes boundaries for acceptable behavior.",
+    "questionType": "multiple-choice"
+  },
+  {
+    "id": 15,
+    "domain": {
+      "number": 5,
+      "name": "Security Program Management and Oversight",
+      "weight": 20
+    },
+    "questionText": "What is the main difference between qualitative and quantitative risk analysis?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Qualitative uses numerical values, quantitative uses descriptive terms"
+      },
+      {
+        "letter": "B",
+        "text": "Qualitative uses descriptive terms, quantitative uses numerical values"
+      },
+      {
+        "letter": "C",
+        "text": "There is no difference between the two methods"
+      },
+      {
+        "letter": "D",
+        "text": "Qualitative is more accurate than quantitative"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Qualitative risk analysis uses descriptive terms (like high, medium, low) to assess risk, while quantitative risk analysis uses numerical values and mathematical calculations to measure risk in monetary terms or probabilities.",
+    "questionType": "multiple-choice"
+  }
+] 
